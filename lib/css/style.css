@@ -218,6 +218,12 @@ background-size: cover;
     width: 30%;
     margin: 30px auto;
     height: 3em;
+    background-color: #3d9fcc;
+}
+
+.btn:hover {
+    transition: background-color 0.5s;
+    background-color: #7b84af;
 }
 
 .modal {
