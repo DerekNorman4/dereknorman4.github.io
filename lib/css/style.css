@@ -28,7 +28,7 @@ body::-webkit-scrollbar {
     display: flex;
     flex-flow: row-reverse wrap-reverse;
     padding-top: 5px !important; 
-    font-family: cursive;
+    font-family: 'Kosugi', sans-serif;
 
 }
 
@@ -66,7 +66,7 @@ height: 30px;
 
 .slow-boxshadow {
     box-shadow: 0 5px 5px rgba(0,0,0,0.15);
-    transition: box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.6s ease-in-out;
   }
   
   /* Transition to a bigger shadow on hover */
@@ -107,6 +107,37 @@ height: 30px;
     text-decoration: #9cb3bb;
     border-bottom: 1px solid;
 }
+
+.icon-color-linkedin {
+    color: gray;
+    font-size: 130%;
+}
+
+.icon-color-linkedin:hover {
+    transition: color 0.6s ease-in-out;
+    color: #2628ad;
+}
+
+.icon-color-instagram {
+    color: gray;
+    font-size: 130%;
+}
+
+.icon-color-instagram:hover {
+    transition: color 0.6s ease-in-out;
+    color: #7c3caf;
+}
+
+.icon-color-snapchat {
+    color: gray;
+    font-size: 130%;
+}
+
+.icon-color-snapchat:hover {
+    transition: color 0.6s ease-in-out;
+    color: #f5e65e;
+}
+
 
 .featured-projects-heading {
     color: rgb(245, 245, 245);
@@ -151,15 +182,26 @@ section {
 .project-1 {
 background-image: url('../../Pictures/bouncingball.JPG');
 background-size: cover;
-width: 100%;
-height: 100%;
+
 }
 
 .project-2 {
     background-image: url('../../Pictures/changethroughgames.JPG');
     background-size: cover;
+
     }
     
+.project-2 {
+     background-image: url('../../Pictures/changethroughgames.JPG');
+     background-size: cover;
+     
+        }
+
+.project-2 {
+     background-image: url('../../Pictures/changethroughgames.JPG');
+     background-size: cover;
+   
+            }
     
 
 .project-link {
@@ -169,7 +211,7 @@ height: 100%;
 
 .project-link:hover {
     opacity: 1;
-    border-bottom: 1px solid white;
+    
 }
 
 .btn {
@@ -210,6 +252,7 @@ height: 100%;
 }
 
 .contact-me-links:hover {
+    transition: color 1s ease-in-out;
     color: rgb(207, 239, 245) !important;
     border-bottom: rgb(190, 233, 233) !important;
 }
@@ -250,7 +293,7 @@ height: 100%;
     }
 
     .portfolio-card {
-        margin-top: 50px;
+        margin-top: 70px;
         width: 95%;
         height: 40em;
     }
@@ -259,10 +302,17 @@ height: 100%;
         height: 25%;
         width: 40%;
     }
+
+    .card-description {
+        display: flex;
+        flex-flow: column wrap;
+        padding-top: 2px !important;
+    }
      .row {
          display: flex;
          justify-content: center;
          margin: 0 auto;
+         height: 30em;
      }
 
 
@@ -289,6 +339,14 @@ height: 100%;
     #featured-projects {
         margin-top: 50px;
     }
+
+    .contact-me-margin {
+        display: flex;
+        flex-flow: row wrap;
+        font-size: 18px;
+    }
+
+    
 }
 
 @media (max-width: 321px) {
